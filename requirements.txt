@@ -1,0 +1,5 @@
+django
+stripe 
+django-crispy-forms
+django-widget-tweaks
+pillow
