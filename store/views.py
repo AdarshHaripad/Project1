@@ -234,7 +234,7 @@ def signinView(request):
 
 def signoutView(request):
     logout(request)
-    return redirect('signin')
+    return redirect('home')
 
 
 @login_required(redirect_field_name='next', login_url='signin')
